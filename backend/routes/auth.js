@@ -3,7 +3,7 @@
 import express  from "express";
 const router = express.Router();
 import User from '../model/Userschema.js';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 //register
 router.post('/register', async (req,res)=>{
