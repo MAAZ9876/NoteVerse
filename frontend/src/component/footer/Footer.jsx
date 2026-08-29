@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="about-footer">
            
           <p className="logo">
-             NoteSharing
+             NoteVerse
           </p>
           
           <div className="about-content-container">
