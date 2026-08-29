@@ -153,7 +153,7 @@ const Navbar = () => {
         </Left>
         <Center>
         <Link to="/" style={{textDecoration:"none",color:"black"}}>
-          <Logo>NoteSharing</Logo>
+          <Logo>NoteVerse</Logo>
           </Link>
         </Center>
         <Right>
