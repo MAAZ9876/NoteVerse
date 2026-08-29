@@ -30,7 +30,7 @@ const Footer = () => {
 
           <div className="footer-bottom-container">
             <p className="copyright">
-            Copyright © 2023 NoteSharing. All Rights Reserved
+            Copyright © 2026 NoteVerse. All Rights Reserved
             </p>
             <div className="footer-link">
               <Link to="/" className="footer-link-item" style={{textDecoration:"none"}}>
