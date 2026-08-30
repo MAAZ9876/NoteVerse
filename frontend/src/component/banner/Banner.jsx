@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Profile from "../../pages/profile/Profile";
 const Banner = () => {
-  const pf="https://notesharingbackend-ankitkr437.onrender.com/images/";
+  const pf="http://localhost:8000/images/";
   const [users, setusers] = useState([]);
   const [notes, setnotes] = useState([]);
   const [len, setlen] = useState(0);
