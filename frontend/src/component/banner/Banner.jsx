@@ -22,7 +22,7 @@ const Banner = () => {
       setisuser(true);
     };
     const fetchallnotes = async () => {
-      const res = await axios.get("https://notesharingbackend-ankitkr437.onrender.com/api/notes/");
+      const res = await axios.get("http://localhost:8000/api/notes/");
       setnotes(res.data);
       setisnotes(true);
     };
