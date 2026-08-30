@@ -17,7 +17,7 @@ const Banner = () => {
   const TotalPublishNotes=createContext();
   useEffect(() => {
     const fetchalluser = async () => {
-      const res = await axios.get("https://notesharingbackend-ankitkr437.onrender.com/api/users/");
+      const res = await axios.get("http://localhost:8000/users/");
       setusers(res.data);
       setisuser(true);
     };
