@@ -1,8 +1,8 @@
 import axios from "axios";
-const LocalBASE_URL="http://localhost:8000/api/";
-const BASE_URL = "const BASE_URL = "http://localhost:8000/api/";
 
-export const pf="export const pf = "http://localhost:8000/images";
+const BASE_URL = "http://localhost:8000/api/";
+
+export const pf = "http://localhost:8000/images";
 
 export const publicRequest = axios.create({
   baseURL: BASE_URL,
