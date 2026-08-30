@@ -6,7 +6,7 @@ import "./chatOnline.css";
 export default function ChatOnline({ onlineUsers, currentId, setCurrentChat }) {
   const [friends, setFriends] = useState([]);
   const [onlineFriends, setOnlineFriends] = useState([]);
-  const PF="https://notesharingbackend-ankitkr437.onrender.com/images/";
+  const PF="http://localhost:8000/images/";
 
   useEffect(() => {
     const getFriends = async () => {
