@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import {publicRequest} from '../../requestMethods'
 import CircularLoader from '../CircularLoader'
 const Author = () => {
-  const pf = "https://notesharingbackend-ankitkr437.onrender.com/images/";
+  const pf = "http://localhost:8000/images/";
   const [authors, setauthors] = useState([]);
   const [isauthors, setisauthors] = useState(false);
   const TotalPublishNotes = createContext();
